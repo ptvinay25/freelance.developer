@@ -214,6 +214,8 @@ document.addEventListener('scroll', () => {
   window.scrollSpyTimeout = setTimeout(navmenuScrollspy, 50);
 });
 
+})();
+
 
   // Contact Form to WhatsApp
   function sendToWhatsApp() {
@@ -231,5 +233,3 @@ document.addEventListener('scroll', () => {
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${text}`;
     window.open(whatsappLink, '_blank');
   }
-
-})();
